@@ -22,7 +22,13 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view("about");
+    return view(
+        "about",
+        [
+            "nama" => "Benony Gabriel",
+            "prodi" => "Ilmu Komputer"
+        ]
+    );
 });
 
 Route::get('/posts', function () {
