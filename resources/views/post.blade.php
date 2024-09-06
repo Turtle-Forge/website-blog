@@ -8,11 +8,8 @@
 
     <article class="mt-5">
         <h2>{{ $post->title }}</a></h2>
-        <h6>By: {{ $post->author }}</h5>
-        {{ $post->body }}
+        <h6>By: {{ $post->author }}</h6>
+        {!! $post->body !!}
     </article>
-
-    
-        
 
 @endsection
