@@ -1,9 +1,9 @@
 @extends("layouts.main")
 
-@section("title", "Blog")
+@section("title", "Category")
 
 @section("container")
-    <h1>Blog</h1>
+    <h1>Blog | {{ $category }}</h1>
 
     @foreach ($posts as $post)
     <article class="mt-5" style="border: 1px solid black; padding: 20px; border-radius: 8px">
