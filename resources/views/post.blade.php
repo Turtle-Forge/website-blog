@@ -8,7 +8,7 @@
 
     <article class="mt-5">
         <h2>{{ $post->title }}</h2>
-        <h6>By: <a href="#" class="text-decoration-none"> {{ $post->user->name }}</a> | <a href="/categories/{{ $post->category->slug }}">{{ $post->category->name }}</a></h6>
+        <h6>By: <a href="/authors/{{ $post->user->id }}" class="text-decoration-none"> {{ $post->user->name }}</a> | <a href="/categories/{{ $post->category->slug }}">{{ $post->category->name }}</a></h6>
         {!! $post->body !!}
     </article>
 
