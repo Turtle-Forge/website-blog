@@ -10,7 +10,7 @@
 
     <title>BG | @yield("title")</title>
   </head>
-  <body>
+  <body class="mb-5">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <div class="container">
