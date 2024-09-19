@@ -3,7 +3,7 @@
 @section('title', 'Blog')
 
 @section('container')
-    <h1>My Blogs</h1>
+    <h1>Blogs</h1>
 
     @foreach ($posts as $post)
         <article class="mt-5" style="border: 1px solid black; padding: 20px; border-radius: 8px">
