@@ -47,7 +47,7 @@ class DatabaseSeeder extends Seeder
             "slug" => "frontend"
         ]);
 
-        Post::factory(25)->create();
+        Post::factory(20)->create();
         // Post::create([
         //     "category_id" => 1,
         //     "user_id" => 1,
